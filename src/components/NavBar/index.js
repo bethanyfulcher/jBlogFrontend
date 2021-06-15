@@ -16,7 +16,7 @@ export default function NavBar(props) {
                 <Link to="/"><button className="nav-button" id="home-button">LOGIN</button></Link>
             </div>
         </div>
-        <hr/>
+        {/* <hr/> */}
 
         </div>
     )

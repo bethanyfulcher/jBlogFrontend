@@ -1,0 +1,8 @@
+#body {
+    position: absolute;
+    top: 100px;
+}
+
+#quote {
+    font-family: 'Dancing Script', cursive;
+}
