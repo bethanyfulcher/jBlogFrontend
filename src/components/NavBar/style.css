@@ -1,3 +1,37 @@
 .nav-bar {
-    background-color: cornflowerblue;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-buttons {  
+    align-self: center;
+}
+
+.nav-button {
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    /* font-weight: bolder; */
+    font-size: 30px;
+    background-color: white;
+    border: none; 
+    margin-left: 20px;
+    color: #474749;
+}
+
+.nav-button:hover {
+    color: #BD6F29;
+}
+
+#logo {
+    margin-right: auto;
+}
+
+hr {
+    width: 90vw;
+    /* padding: 5px; */
+    /* margin: 10px; */
+    left: 0;
+    position: absolute;
+    margin-left: 5vw;
 }
