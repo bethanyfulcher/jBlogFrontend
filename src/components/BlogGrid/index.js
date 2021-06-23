@@ -13,9 +13,9 @@ export default function BlogGrid(props) {
 							<img src={wizardsAndWhiteboards} alt="Wizards and Whiteboards" />
 						</span>
 						<a href="#modal1" class="project modal-trigger">
-                            <h2>Wizards and Whiteboards</h2>
+                            <h2>Pain</h2>
 							<div class="content">
-								<p>RPG game to practice algorithm challenges.</p>
+								<p>Pursuing through the pain.</p>
 							</div>
 						</a>
 					</article>
@@ -24,9 +24,9 @@ export default function BlogGrid(props) {
 							<img src={wizardsAndWhiteboards} alt="Wizards and Whiteboards" />
 						</span>
 						<a href="#modal1" class="project modal-trigger">
-                            <h2>Wizards and Whiteboards</h2>
+                            <h2>Love</h2>
 							<div class="content">
-								<p>RPG game to practice algorithm challenges.</p>
+								<p>Loving the small things in life.</p>
 							</div>
 						</a>
 					</article>
@@ -35,9 +35,9 @@ export default function BlogGrid(props) {
 							<img src={wizardsAndWhiteboards} alt="Wizards and Whiteboards" />
 						</span>
 						<a href="#modal1" class="project modal-trigger">
-                            <h2>Wizards and Whiteboards</h2>
+                            <h2>Hope</h2>
 							<div class="content">
-								<p>RPG game to practice algorithm challenges.</p>
+								<p>Holding on to hope.</p>
 							</div>
 						</a>
 					</article>

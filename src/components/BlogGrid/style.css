@@ -21,7 +21,7 @@
         -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
         transition: transform 0.5s ease, opacity 0.5s ease;
         position: relative;
-        width: calc(33.33333% - 2.5em);
+        width: calc(30vw - 2.5em);
         margin: 2.5em 0 0 2.5em;
     }
 
@@ -145,27 +145,7 @@
                 }
 
         .tiles article.style1 > .image:before {
-            background-color: #f2849e;
-        }
-
-        .tiles article.style2 > .image:before {
-            background-color: #7ecaf6;
-        }
-
-        .tiles article.style3 > .image:before {
-            background-color: #7bd0c1;
-        }
-
-        .tiles article.style4 > .image:before {
-            background-color: #c75b9b;
-        }
-
-        .tiles article.style5 > .image:before {
-            background-color: #ae85ca;
-        }
-
-        .tiles article.style6 > .image:before {
-            background-color: #8499e7;
+            background-color: grey;
         }
 
         body:not(.is-touch) .tiles article:hover > .image {
@@ -190,7 +170,7 @@
         }
 
     * + .tiles {
-        /* margin-top: 2em; */
+        margin-top: 2em;
     }
 
     body.is-preload .tiles article {
