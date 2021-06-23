@@ -1,16 +1,19 @@
 import wizardsAndWhiteboards from "./wizardsAndWhiteboards.png"
+import trees from "../../images/tree_pic.jpg"
+import sky from "../../images/sky_pic.jpg"
+import road from "../../images/road_pic.jpg"
 
 import './style.css'
 
 export default function BlogGrid(props) {
 
     return (
-        <div>
+        <div className="blog-grid">
              <section class="tiles">
 
 					<article class="style1">
 						<span class="image">
-							<img src={wizardsAndWhiteboards} alt="Wizards and Whiteboards" />
+							<img src={trees} alt="Trees" />
 						</span>
 						<a href="#modal1" class="project modal-trigger">
                             <h2>Pain</h2>
@@ -21,7 +24,7 @@ export default function BlogGrid(props) {
 					</article>
 					<article class="style1">
 						<span class="image">
-							<img src={wizardsAndWhiteboards} alt="Wizards and Whiteboards" />
+							<img src={sky} alt="Sky" />
 						</span>
 						<a href="#modal1" class="project modal-trigger">
                             <h2>Love</h2>
@@ -32,7 +35,7 @@ export default function BlogGrid(props) {
 					</article>
 					<article class="style1">
 						<span class="image">
-							<img src={wizardsAndWhiteboards} alt="Wizards and Whiteboards" />
+							<img src={road} alt="Road" />
 						</span>
 						<a href="#modal1" class="project modal-trigger">
                             <h2>Hope</h2>
