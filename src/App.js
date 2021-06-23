@@ -1,6 +1,7 @@
 import React, { useState, useEffect} from 'react';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Home from "./pages/Home";
+import Blog from "./pages/Blog";
 import NavBar from './components/NavBar';
 import "./App.css"
 
@@ -14,9 +15,9 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          {/* <Route exact path="/blog/:id">
-            <BlogPage user={userState}/>
-          </Route> */}
+          <Route exact path="/blog/">
+            <Blog/>
+          </Route>
         </Switch>
       </Router>
   );

@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom"
+
 import wizardsAndWhiteboards from "./wizardsAndWhiteboards.png"
 import trees from "../../images/tree_pic.jpg"
 import sky from "../../images/sky_pic.jpg"
@@ -15,12 +17,14 @@ export default function BlogGrid(props) {
 						<span class="image">
 							<img src={trees} alt="Trees" />
 						</span>
-						<a href="#modal1" class="project modal-trigger">
+                        <Link to={'/blog'}>
+						<a class="project modal-trigger">
                             <h2>Pain</h2>
 							<div class="content">
 								<p>Pursuing through the pain.</p>
 							</div>
 						</a>
+                        </Link>
 					</article>
 					<article class="style1">
 						<span class="image">
